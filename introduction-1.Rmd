@@ -1,0 +1,41 @@
+---
+title: "1. Introduction: exercises"
+author: "Katie Jolly"
+date: "May 9, 2018"
+output: 
+  html_document:
+    theme: "cosmo"
+    toc: true
+    toc_float: true
+---
+
+# Question 1
+
+>Think about the terms ‘GIS’, ‘GDS’ and ‘Geocomputation’ described above. Which is your favorite, and why?
+
+My favorite is geographic data science (GDS). To my mind, it reflects a broader view of spatial data than is conveyed through GIS. It reflects the flexibility provided by CLI tools, as opposed to a reliance on GUIs, as well as a flexibility in what is under the purview of the term. It seems to encompass more than geocomputation. (It also sounds a bit friendlier for people who don't do much "computation", or at least don't realize they do.)
+
+# Question 2
+
+>Provide three reasons for using a scriptable language such as R for geocomputation instead of using an established GIS program such as QGIS.
+
+1. It encourages reproducibility of the research .
+
+2. It allows for quick development of new geoalgorithms and methods.
+
+3. It can "seamlessly switch between geographic and non-geographic data processing, modeling, and visualization tasks," making it flexible and adaptable for a broader view of spatial data science. 
+
+# Question 3
+
+>Name two advantages and two disadvantages of using mature packages compared with ‘cutting edge’ packages for spatial data (for example sp vs sf).
+
+Cutting edge disadvantages:
+
+* Rapidly evolving code can make projects that use those packages more unreliable 
+* Fewer use-cases or examples when you get stuck on a project
+
+Mature disadvantages:
+
+* Code doesn't always keep up with the most current implementations of geoalgorithms (can make functions slower and/or less efficient)
+* Built on outdated functionality, hinders future development based on cutting edge technology because more users stay with existing packages
+
